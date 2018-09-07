@@ -1,0 +1,8 @@
+{
+	"name": "zs-littleconf",
+	"description": "ZS Library: zs-littleconf",
+	"options": {
+		"outdir": "./docs",
+		"exclude": "dist,tmp,test,node_modules"
+	}
+}

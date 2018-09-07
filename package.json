@@ -1,0 +1,31 @@
+{
+  "name": "littleconf",
+  "version": "0.0.1",
+  "description": "Simple and small library for loading configuration files and options",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zipscene/littleconf.git"
+  },
+  "scripts": {
+    "docs": "yuidoc .",
+    "lint": "eslint . || exit 0",
+    "prepublishOnly": "npm run docs",
+    "test": "mocha ./test --recursive -R spec"
+  },
+  "generatorInfo": {
+    "name": "generator-zs-lib",
+    "version": "0.2.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "objtools": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.5.0",
+    "eslint-config-zipscene": "^0.2.3",
+    "mocha": "^5.2.0",
+    "yuidocjs": "^0.10.2"
+  }
+}
