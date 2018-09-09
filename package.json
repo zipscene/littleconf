@@ -27,5 +27,6 @@
     "eslint-config-zipscene": "^0.2.3",
     "mocha": "^5.2.0",
     "yuidocjs": "^0.10.2"
-  }
+  },
+  "license": "Apache-2.0"
 }
