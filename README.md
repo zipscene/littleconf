@@ -68,6 +68,7 @@ arguments look like `--config-setting-SETTINGNAME`.
 These options can be supplied in the argument to `getConfig()`.
 
 - `argv` - The set of command-line arguments.
+- `projectName` - The name of the project.  Defaults to the `name` property in package.json.
 - `environmentOverride` - Force a specific config environment value.
 - `cliArgumentEnvironment` - The name of the CLI argument to use for selecting the config environment.  Defaults to "config-env".
 - `rootDir` - The root directory of the project.  By default this is determined by using `require.main` and traversing upwards until
