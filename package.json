@@ -1,6 +1,6 @@
 {
   "name": "littleconf",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple and small library for loading configuration files and options",
   "main": "./lib/index.js",
   "repository": {

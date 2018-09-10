@@ -6,11 +6,11 @@ LittleConf is a simple library for loading project configuration files.
 const config = require('littleconf').getConfig();
 ```
 
-This will load a YAML configuration file named `<PackageName>.conf` from the package root directory.  By default, the package name is discovered from the project's package.json file.
+This will load a YAML configuration file named `<PackageName>.conf` or `<PackageName>.conf.js` from the package root directory.  By default, the package name is discovered from the project's package.json file.
 
 ## Config Defaults
 
-LittleConf will also look for a file named `<PackageName>-defaults.conf` in the package root directory.  This file is merged with the main config file and can supply
+LittleConf will also look for a file named `<PackageName>-defaults.conf` or `<PackageName>-defaults.conf.js` in the package root directory.  This file is merged with the main config file and can supply
 defaults.  By convention, the defaults file should be committed to the source repository, and the main config file should not.
 
 ## Config Filename and Search Path
