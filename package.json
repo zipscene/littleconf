@@ -8,9 +8,7 @@
     "url": "https://github.com/zipscene/littleconf.git"
   },
   "scripts": {
-    "docs": "yuidoc .",
     "lint": "eslint . || exit 0",
-    "prepublishOnly": "npm run docs",
     "test": "mocha ./test --recursive -R spec"
   },
   "generatorInfo": {
